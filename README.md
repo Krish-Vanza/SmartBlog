@@ -43,13 +43,13 @@ With AI-assisted features like **auto-generated blog descriptions**, SmartBlog s
 
 ## ⚙️ Setup & Installation
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 
 git clone https://github.com/<your-username>/SmartBlog.git
 cd SmartBlog
 
 ---
-###2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 For both client and server:
 
 cd client
@@ -58,7 +58,7 @@ cd ../server
 npm install
 
 ---
-###3️⃣ Configure Environment Variables
+## 3️⃣ Configure Environment Variables
 Create a .env file in the server directory with the following keys:
 
 MONGO_URI=<your_mongodb_uri>
@@ -69,7 +69,7 @@ GOOGLE_API_KEY=<your_google_api_key>
 
 ---
 
-###4️⃣ Run the App
+## 4️⃣ Run the App
 Start both frontend and backend:
 
 bash
@@ -85,11 +85,12 @@ Frontend: http://localhost:3000
 Backend:  http://localhost:5000
 ---
 
-### 🤖 AI Integration (Google API)
+## 🤖 AI Integration (Google API)
 SmartBlog uses Google API to automatically generate engaging blog descriptions using natural language processing.
 Admins can leverage this feature while creating or editing posts to speed up content creation.
+
 ---
-### 📸 Image Handling (ImageKit)
+## 📸 Image Handling (ImageKit)
 All media uploads are optimized and served via ImageKit CDN
 
 Automatic resizing and compression for faster load times
@@ -121,5 +122,6 @@ Dark mode and accessibility improvements
 ### 👨‍💻 Developer
 Krish Vanza
 Developer
+
 
 

@@ -44,29 +44,32 @@ With AI-assisted features like **auto-generated blog descriptions**, SmartBlog s
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/<your-username>/SmartBlog.git
 cd SmartBlog
-2️⃣ Install Dependencies
+
+---
+###2️⃣ Install Dependencies
 For both client and server:
 
-bash
-Copy code
 cd client
 npm install
 cd ../server
 npm install
-3️⃣ Configure Environment Variables
+
+---
+###3️⃣ Configure Environment Variables
 Create a .env file in the server directory with the following keys:
 
-ini
-Copy code
 MONGO_URI=<your_mongodb_uri>
 JWT_SECRET=<your_jwt_secret>
 IMAGEKIT_PUBLIC_KEY=<your_imagekit_public_key>
 IMAGEKIT_PRIVATE_KEY=<your_imagekit_private_key>
 GOOGLE_API_KEY=<your_google_api_key>
-4️⃣ Run the App
+
+---
+
+###4️⃣ Run the App
 Start both frontend and backend:
 
 bash
@@ -78,24 +81,23 @@ npm run dev
 npm start
 App will be running on:
 
-arduino
-Copy code
 Frontend: http://localhost:3000
 Backend:  http://localhost:5000
-🤖 AI Integration (Google API)
+---
+
+### 🤖 AI Integration (Google API)
 SmartBlog uses Google API to automatically generate engaging blog descriptions using natural language processing.
 Admins can leverage this feature while creating or editing posts to speed up content creation.
-
-📸 Image Handling (ImageKit)
+---
+### 📸 Image Handling (ImageKit)
 All media uploads are optimized and served via ImageKit CDN
 
 Automatic resizing and compression for faster load times
 
 Secure upload and retrieval using API authentication
+---
+###🧩 Folder Structure
 
-🧩 Folder Structure
-bash
-Copy code
 SmartBlog/
 ├── client/              # React Frontend
 │   ├── src/
@@ -107,7 +109,7 @@ SmartBlog/
 │   ├── controllers/
 │   └── middleware/
 └── README.md
-💡 Future Enhancements
+### 💡 Future Enhancements
 AI-powered content summarization
 
 User profiles and following system
@@ -116,16 +118,8 @@ Blog analytics dashboard for admins
 
 Dark mode and accessibility improvements
 
-👨‍💻 Developer
+### 👨‍💻 Developer
 Krish Vanza
-MERN Stack Developer | AI & Cloud Enthusiast
-🔗 LinkedIn | GitHub
+Developer
 
-⭐ If you like this project, don’t forget to give it a star!
 
-yaml
-Copy code
-
----
-
-Would you like me to add GitHub-style **badges** (for tech stack, license, and build info) at the top too? 

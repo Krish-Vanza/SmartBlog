@@ -1,0 +1,15 @@
+<svg width="600" height="120" viewBox="0 0 600 120" xmlns="http://www.w3.org/2000/svg" aria-label="SmartBlog logo">
+  <!-- Left red chat-bubble icon (smaller and better positioned) -->
+  <g id="icon" transform="translate(10,10) scale(0.4)">
+    <!-- rounded square background -->
+    <rect x="0" y="0" rx="40" ry="40" width="220" height="220" fill="#65A30D"/>
+    <!-- tail (connected to bottom of square) -->
+    <path d="M80 220 L60 260 L120 220 Z" fill="#65A30D"/>
+    <!-- white S -->
+    <text x="110" y="170" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="180" text-anchor="middle" fill="#FFFFFF">S</text>
+  </g>
+  <!-- Brand text (closer to icon) -->
+  <g id="wordmark" transform="translate(120,75)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="60" fill="#000000">SmartBlog</text>
+  </g>
+</svg>

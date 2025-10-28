@@ -1,5 +1,6 @@
-# 🧠 SmartBlog
+# 🧠 SmartBlog : 
 
+URL : smart-blog-phi.vercel.app
 An **AI-powered full-stack blogging platform** built using the **MERN Stack**, integrated with **ImageKit** and **Google APIs** for intelligent automation and seamless media handling.
 
 ---
@@ -122,6 +123,7 @@ Dark mode and accessibility improvements
 ### 👨‍💻 Developer
 Krish Vanza
 Developer
+
 
 
 
